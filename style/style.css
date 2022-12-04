@@ -1,3 +1,115 @@
-h1{
-    color:red;
+body{
+    /* background-color: #072041; */
+    /* #020b17 */
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Oxygen', 'Times New Roman', Times, serif;
+    font-size: 1.2em;
 }
+
+h1{
+    font-size: 3.5em;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+
+h3{
+    font-size: 1.5em;
+    width: max-content;
+    background-color: rgba(255, 77, 90, 0.3);
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+em{
+    font-style: normal;
+    /* color: #ff4d5a; */
+    /* background-color: #ff4d5a; */
+    /* background-color: rgba(255, 77, 90, 0.3); */
+    background-color: rgba(222,222,222,0.3);
+    padding-left: 3px;
+    padding-right: 3px;
+    /* text-decoration: underline */
+}
+
+#container{
+    background-image: linear-gradient(#072041 20%, #020b17);
+    color: #ffffff;
+    height: 100vh;
+    /* position: absolute; */
+    /* justify-content: center; */
+
+}
+
+/* #title, #portfolio{
+    padding-top: 100px;
+} */
+
+.title{
+    display: grid;
+    /* justify-content: center; */
+    justify-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.bio{
+    margin-top: 60px;
+    /* font-size: 1em; */
+    width: 70%;
+}
+
+.section{
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    /* justify-content: center; */
+    /* padding-top: 500px; */
+    margin-bottom: 70px;
+}
+
+.section-title{
+    font-size: 1.5em;
+    background-color: #ff4d5a;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.division{
+    display: grid;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.line1, .line2{
+    width: 100px;
+    border: solid 2.5px #ff4d5a;
+    border-radius: 5px;
+    background-color: #ff4d5a;
+    /* justify-content: center; */
+
+    margin: auto;
+    /* width: 30%; */
+
+}
+
+.line2{
+    width: 70px;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+}
+
