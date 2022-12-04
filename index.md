@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="style/style.css">
 
 <h1 align="center">
   # Hi, I'm Leonardo, but you can call me Leo, a guy passionate about creating pleasurable & functional websites.
