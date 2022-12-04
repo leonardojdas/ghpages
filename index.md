@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<h1 align="center">
+  # Hi, I'm Leonardo, but you can call me Leo, a guy passionate about creating pleasurable & functional websites.
+</h1>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
