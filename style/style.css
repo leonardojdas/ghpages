@@ -237,6 +237,31 @@ em[data-descr]:focus::after {
     background-image: url('../images/js-a5-thumb.png');
 }
 
+.ajs-a1{
+    background-image: url('../images/ajs-a1-thumb.png');
+    height: 285px;
+}
+
+.ajs-a2{
+    background-image: url('../images/ajs-a2-thumb.png');
+    height: 367px;
+}
+
+.ajs-a3{
+    background-image: url('../images/ajs-a3-thumb.png');
+}
+
+.ajs-a4{
+    background-image: url('../images/ajs-a4-thumb.png');
+}
+
+.ajs-a5{
+    background-image: url('../images/ajs-a5-thumb.png');
+}
+
+.php-a7{
+    background-image: url('../images/php-a7-thumb.png');
+}
 
 .window-description{
     padding: 20px;
