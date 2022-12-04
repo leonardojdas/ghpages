@@ -44,9 +44,10 @@ em{
 }
 
 #container{
-    background-image: linear-gradient(#072041 20%, #020b17);
+    /* background-image: linear-gradient(#072041 20%, #020b17); */
+    background-color: #020b17;
     color: #ffffff;
-    height: 100vh;
+    /* height: 100vh; */
     /* position: absolute; */
     /* justify-content: center; */
 
@@ -62,6 +63,9 @@ em{
     justify-items: center;
     text-align: center;
     padding-top: 100px;
+
+    background-image: linear-gradient(#072041 20%, #020b17);
+
 }
 
 .bio{
@@ -76,7 +80,7 @@ em{
     justify-items: center;
     /* justify-content: center; */
     /* padding-top: 500px; */
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 .section-title{
@@ -111,5 +115,80 @@ em{
     width: 70px;
     margin-top: 20px;
     /* margin-left: 50px; */
+}
+
+.window{
+    margin-top: 50px;
+    border: solid 1px rgba(222,222,222,0.3);
+    border-radius: 8px;
+    width: 800px;
+    background-color: rgba(222,222,222,0.15);
+    /* padding: 20px; */
+}
+
+.window-header{
+    border-bottom: solid 1px rgba(222,222,222,0.3);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 190px 380px 190px;
+    justify-items: center;
+}
+
+.window-header > div:first-child{
+    margin-top: 4px;
+}
+
+.github-img{
+    filter: brightness(0) invert(1);
+    height: 35px;
+}
+
+.window-header-title{
+    /* background-color: #020b17; */
+    background-color: rgba(2, 11, 23,0.5);
+    width: 350px;
+    padding: 10px;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px rgba(222,222,222,0.3);
+    font-size: 0.9em;
+}
+
+.window-content{
+    height: 520px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.js-a1{
+    background-image: url('../images/js-a1-thumb.png');
+}
+
+.window-header-buttons{
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    justify-items: end;
+    width: -webkit-fill-available;
+}
+
+.window-header-buttons > div > div{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.window-header-buttons > div > div:nth-child(1){
+    background-color: red;
+}
+
+.window-header-buttons > div > div:nth-child(2){
+    background-color: yellow;
+}
+
+.window-header-buttons > div > div:nth-child(3){
+    background-color: green;
 }
 
