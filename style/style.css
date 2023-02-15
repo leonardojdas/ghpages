@@ -103,7 +103,7 @@ a:visited{
 
 .bio{
     margin-top: 60px;
-    /* font-size: 1em; */
+    max-width: 800px;
     width: 70%;
 }
 
@@ -203,7 +203,7 @@ a:visited{
     margin-right: 5px;
 }
 
-.window-header-buttons > div > div:nth-child(1){
+/* .window-header-buttons > div > div:nth-child(1){
     background-color: red;
 }
 
@@ -213,7 +213,7 @@ a:visited{
 
 .window-header-buttons > div > div:nth-child(3){
     background-color: green;
-}
+} */
 
 .window-content{
     height: 520px;
