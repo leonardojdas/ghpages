@@ -1,6 +1,4 @@
 body{
-    /* background-color: #072041; */
-    /* #020b17 */
     color: #ffffff;
     margin: 0;
     font-family: 'Oxygen', 'Times New Roman', Times, serif;
@@ -8,7 +6,7 @@ body{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 0;
     padding: 0;
     font-weight: 100;
@@ -77,42 +75,30 @@ a:visited{
 }
 
 #container{
-    /* background-image: linear-gradient(#072041 20%, #020b17); */
     background-color: #020b17;
     color: #ffffff;
-    /* height: 100vh; */
-    /* position: absolute; */
-    /* justify-content: center; */
 
 }
 
-/* #title, #portfolio{
-    padding-top: 100px;
-} */
-
 .title{
     display: grid;
-    /* justify-content: center; */
     justify-items: center;
     text-align: center;
     padding-top: 100px;
 
     background-image: linear-gradient(#072041 20%, #020b17);
-
 }
 
 .bio{
     margin-top: 60px;
-    max-width: 800px;
-    width: 70%;
+    padding: 0px 40px;
+    max-width: 1025px;
 }
 
 .section{
     text-align: center;
     display: grid;
     justify-items: center;
-    /* justify-content: center; */
-    /* padding-top: 500px; */
     padding-bottom: 150px;
 }
 
@@ -125,11 +111,17 @@ a:visited{
     margin-bottom: 20px;
 }
 
+.section-content {
+  text-align: center;
+  max-width: 1025px;
+  padding: 0px 40px;
+}
+
 .division{
     display: grid;
     width: 100%;
-    margin-top: 80px;
-    margin-bottom: 150px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .line1, .line2{
@@ -177,7 +169,6 @@ a:visited{
 }
 
 .window-header-title{
-    /* background-color: #020b17; */
     background-color: rgba(2, 11, 23,0.5);
     width: 350px;
     padding: 11px;
@@ -190,7 +181,6 @@ a:visited{
 
 .window-header-buttons{
     display: grid;
-    /* grid-template-columns: auto auto auto; */
     justify-items: end;
     width: -webkit-fill-available;
 }
@@ -364,4 +354,32 @@ a:visited{
 
 .about-contact > div:first-child{
     margin-left: 0px;
+}
+
+
+
+/* 
+  320px — 480px: Mobile devices
+  481px — 768px: iPads, Tablets
+  769px — 1024px: Small screens, laptops
+  1025px — 1200px: Desktops, large screens
+  1201px and more —  Extra large screens, TV
+*/
+
+@media screen and (max-width: 810px) {
+  body {
+    font-size: 1.5em;
+  }
+  
+  /* h1 {
+    background-color: blue;
+  }
+
+  .bio {
+    background-color: green;
+  }
+
+  .section-content {
+    background-color: orange;
+  } */
 }
